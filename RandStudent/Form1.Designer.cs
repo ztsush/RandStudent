@@ -58,21 +58,23 @@
             // LbStudentName
             // 
             this.LbStudentName.Font = new System.Drawing.Font("Microsoft Sans Serif", 28F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.LbStudentName.Location = new System.Drawing.Point(12, 9);
+            this.LbStudentName.Location = new System.Drawing.Point(8, 6);
+            this.LbStudentName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LbStudentName.Name = "LbStudentName";
-            this.LbStudentName.Size = new System.Drawing.Size(543, 96);
+            this.LbStudentName.Size = new System.Drawing.Size(362, 62);
             this.LbStudentName.TabIndex = 1;
-            this.LbStudentName.Text = "Ivan Sushytskyi";
+            this.LbStudentName.Text = "Ivan Sushytskyi+";
             this.LbStudentName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(567, 114);
+            this.ClientSize = new System.Drawing.Size(378, 74);
             this.Controls.Add(this.LbStudentName);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
